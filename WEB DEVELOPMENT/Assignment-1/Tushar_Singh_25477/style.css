@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+p {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.body {
+  background-color: black;
+  margin: 0;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 80px 24px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  align-items: flex-start;
+}
+
+.profile_picture {
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.heading_info {
+  color: rgb(88, 166, 255);
+  font-size: 16px;
+  display: inline-block;
+  font-weight: bolder;
+  margin-bottom: 8px;
+}
+
+.name {
+  color: rgb(230, 237, 243);
+  font-size: 44.8px;
+  font-weight: bolder;
+  margin-bottom: 8px;
+}
+
+.heading_bio {
+  color: rgb(139, 148, 158);
+  margin-bottom: 12px;
+}
+
+.heading_buttons {
+  color: rgb(88, 166, 255);
+  background-color: black;
+  border-radius: 20px;
+  border: 1px solid rgb(88, 166, 255);
+  padding: 4px 12px;
+  margin-right: 8px;
+  cursor: default;
+  transition: background-color 0.2s ease;
+}
+
+.heading_buttons:hover {
+  background-color: rgba(88, 166, 255, 0.15);
+}
+
+.card {
+  background-color: rgb(22, 27, 34);
+  border-radius: 8px;
+  border: 1px solid rgb(66, 80, 95);
+  padding: 24px;
+}
+
+.about {
+  font-size: 24px;
+  color: aliceblue;
+  margin-bottom: 16px;
+}
+
+.about_info {
+  color: rgb(139, 148, 158);
+  margin-bottom: 12px;
+}
+
+.about_info:last-child {
+  margin-bottom: 0;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.language {
+  flex: 1;
+  min-width: 150px;
+  color: aliceblue;
+}
+
+.language p {
+  margin-bottom: 6px;
+}
+
+.l {
+  color: rgb(139, 148, 158);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.buttons {
+  background-color: black;
+  color: rgb(139, 148, 158);
+  font-size: 15px;
+  padding: 8px 16px;
+  border: 1px solid rgb(139, 148, 158);
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s ease;
+  margin-bottom: 8px;
+}
+
+.buttons:hover {
+  background-color: rgb(139, 148, 158);
+  color: black;
+}
